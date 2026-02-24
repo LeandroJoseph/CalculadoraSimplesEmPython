@@ -1,9 +1,4 @@
-from Soma import executar_soma
-from Subtracao import executar_sub
-from Multiplicacao import executar_mult
-from Divisao import executar_div
-from Exponencial import executar_exp
-from Radiciacao import executar_rad
+from funcoes import executar_soma, executar_sub, executar_mult, executar_div, executar_rad, executar_exp, executar_fat
 
 while True: #True para o loop ser controlado internamente
     print("\n" + "="*20)
